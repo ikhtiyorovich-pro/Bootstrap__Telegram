@@ -1,0 +1,341 @@
+a {
+	text-decoration: none;
+}
+/* ===========================================================top========================================================== */
+.top-stage {
+	background-color: gray;
+}
+
+.telegram-logo {
+	margin-left: -15px;
+}
+
+.site-logo {
+	margin-top: -3px;
+}
+
+.telegram-span {
+	font-family: sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+	margin-left: -7px;
+	color: white;
+}
+
+.top-three-icons {
+	margin-left: 15px;
+}
+
+.minus-icon {
+	cursor: pointer;
+	padding-left: 9px;
+}
+
+.minus-icon:hover {
+	background-color: rgb(173, 173, 173);
+	transition: 0.4s all;
+}
+
+.restore-icon {
+	cursor: pointer;
+	padding-left: 13px;
+}
+.restore-icon:hover {
+	background-color: rgb(173, 173, 173);
+	transition: 0.4s all;
+}
+
+.x-icon {
+	cursor: pointer;
+	padding-top: -2px;
+	padding-bottom: 4px;
+	padding-left: 14px;
+}
+.x-icon:hover {
+	background-color: red;
+	transition: 0.4s all;
+}
+
+/* ========================================================================================================================== */
+.site-all-wrapper {
+	background-color: rgb(43, 43, 43);
+}
+
+/* ===========================================================files========================================================== */
+
+.files {
+	width: 60px;
+	background-color: rgb(32, 32, 32);
+	padding: 0;
+	text-align: center;
+	padding-bottom: 315px;
+}
+
+.files-icon-1 {
+	cursor: pointer;
+	padding: 15px 15px;
+}
+.files-icon-1:hover {
+	padding: 15px 15px;
+	background-color: rgba(0, 255, 0, 0.493);
+	transition: 0.5s all;
+}
+
+.files-icon {
+	cursor: pointer;
+	padding: 7px 0;
+}
+.all-chats-span {
+	display: block;
+	color: white;
+	font-family: sans-serif;
+	font-size: 10px;
+}
+.files-icon:hover {
+	padding: 7px 0;
+	background-color: rgba(0, 255, 0, 0.493);
+	transition: 0.5s all;
+}
+
+.files-icon-3 {
+	cursor: pointer;
+	padding: 7px 8px 10px 7px;
+	background-color: rgba(0, 255, 0, 0.493);
+}
+.files-icon-3:hover {
+	padding: 7px 8px 10px 7px;
+	background-color: rgba(0, 255, 0, 0.493);
+	transition: 0.5s all;
+}
+
+/* ========================================================search============================================================ */
+.persons {
+	background-color: rgba(27, 27, 27, 0.877);
+	padding: 0;
+}
+
+.search-input {
+	width: 100%;
+	max-width: 430px;
+	margin-top: 10px;
+	padding-left: 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	background-color: rgb(32, 32, 32);
+	color: white;
+}
+/* =========================================================channel========================================================== */
+.channel-wrapper {
+	cursor: pointer;
+	width: 100%;
+	max-width: 490px;
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	padding: 5px 10px;
+}
+.channel-wrapper:hover {
+	background-color: rgb(71, 71, 71);
+}
+
+.channel-wrapper__item {
+	margin-left: 10px;
+}
+
+.planet-img {
+	border-radius: 50%;
+}
+
+.channel-wrapper__span {
+	display: block;
+	color: white;
+}
+.channel-wrapper__time-span {
+	display: block;
+	color: rgb(165, 165, 165);
+}
+
+.channel-wrapper___time-item {
+	margin-left: auto;
+}
+
+.seen-icon {
+	margin-right: 3px;
+}
+
+/* ============================================================bookmark====================================================== */
+.channel-wrapper__bookmark {
+	cursor: pointer;
+	width: 100%;
+	max-width: 490px;
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+}
+.channel-wrapper__bookmark:hover {
+	background-color: rgb(71, 71, 71);
+}
+
+.bookmark-icon {
+	width: 100%;
+	max-width: 53px;
+	height: 51px;
+	padding: 15px;
+	background-color: lightseagreen;
+	border-radius: 50%;
+}
+.arkec-icon {
+	width: 100%;
+	max-width: 53px;
+	height: 51px;
+	background-color: lightseagreen;
+	border-radius: 50%;
+}
+
+.pushpin-icon {
+	width: 100%;
+	max-width: 16px;
+	height: 16px;
+	transform: translateX(65px);
+}
+
+.channel-wrapper___second-wrapper {
+	margin-left: auto;
+}
+
+.channel-wrapper__arkec {
+	cursor: pointer;
+	width: 100%;
+	max-width: 490px;
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+	background-color: rgba(9, 255, 0, 0.219);
+}
+
+.subscribes-span {
+	display: block;
+	font-size: 12px;
+	color: rgba(255, 255, 255, 0.685);
+}
+
+/* ========================================================================================================================== */
+.conversations {
+	position: relative;
+	margin-left: -27px;
+	background-image: url(/images/original.jpg);
+	background-size: 1365px 836px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.top-information {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 12px 20px;
+	background-color: rgb(43, 43, 43);
+}
+
+.top-informations__icons {
+	cursor: pointer;
+	padding: 3px;
+	opacity: 0.4;
+}
+.top-informations__icons:hover {
+	padding: 3px;
+	opacity: 1;
+}
+
+.all-conversations {
+	width: 100%;
+	background-image: url(/images/original.jpg);
+	padding: 0 50px;
+}
+
+.text-wrapper {
+	position: absolute;
+	top: 400px;
+	left: 230px;
+}
+
+.text-wrapper__paragraph {
+	color: white;
+	padding: 5px 25px;
+	background-color: rgb(70, 70, 70);
+	border-radius: 5px;
+}
+
+.conversation__form-wrapper {
+	transform: translateY(620px);
+	height: 35px;
+	background-color: rgba(0, 0, 0, 0.363);
+}
+
+.text-input {
+	width: 100%;
+	max-width: 570px;
+	padding: 3px 0 5px 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: rgba(128, 128, 128, 0.281);
+	color: white;
+}
+
+.send-input {
+	padding: 5px 15px;
+	border: none;
+	border-radius: 5px;
+	background-color: rgba(128, 128, 128, 0.281);
+	color: white;
+}
+/* ========================================================================================================================== */
+
+.stickers-wrapper {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 0;
+}
+
+.texts-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.all-stickers {
+	cursor: pointer;
+	color: white;
+}
+
+.all-stickers:nth-child(1) {
+	padding-left: 50px;
+	color: rgba(255, 255, 255, 0.548);
+}
+.all-stickers:nth-child(1):hover {
+	color: white;
+}
+.all-stickers:nth-child(2) {
+	color: rgba(255, 255, 255, 0.548);
+}
+.all-stickers:nth-child(2):hover {
+	color: white;
+}
+.all-stickers:nth-child(3) {
+	transform: translateX(-20px);
+	color: rgba(255, 255, 255, 0.548);
+}
+.all-stickers:nth-child(3):hover {
+	color: white;
+}
+
+.stickers {
+	padding: 0;
+	padding-left: 5px;
+	margin-top: 20px;
+}
+
+.stickers-icon:hover {
+	cursor: pointer;
+	background-color: rgba(128, 128, 128, 0.356);
+	border-radius: 5px;
+}
